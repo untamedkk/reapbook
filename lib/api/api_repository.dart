@@ -10,7 +10,7 @@ import 'package:reap_book/model/user.dart';
 
 import 'api_provider.dart';
 import 'response/album_list_response.dart';
-import 'response/comment_list_reponse.dart';
+import 'response/comment_list_response.dart';
 import 'response/user_list_response.dart';
 import 'response/user_post_response.dart';
 
