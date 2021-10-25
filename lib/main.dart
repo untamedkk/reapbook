@@ -15,19 +15,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("ReapBook"),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("ReapBook"),
+        ),
+        body: Center(child: PeopleListScreen()),
       ),
-      body: Center(child: PeopleListScreen()),
     );
   }
 }
