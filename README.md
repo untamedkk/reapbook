@@ -1,16 +1,18 @@
-# reap_book
+# ReapBook
 
-A new Flutter project.
+A small hybrid mobile application built on Flutter platfomr. I have used simple Dart I/O and BLoC pattern in order to fetch the data and show the results on the UI.
 
-## Getting Started
+This application demostrate GET/PUT/POST/DELETE network call and build the different dynamic UI using the Material and Cupertino UI compoenent.
 
-This project is a starting point for a Flutter application.
+In this application I am using a free fake API named [JSONPlaceHolder](https://jsonplaceholder.typicode.com/ "JSONPlaceHolder"). Although POST, PUT and DELETE resources would be not updated as this is a fake API.
 
-A few resources to get you started if this is your first Flutter project:
+### Third Part Libs
+I also used a few third-party library dependency in order to build good look and feel.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- 	Modal Bottom Sheet (https://pub.dev/packages/modal_bottom_sheet)
+- Slidable List View (https://pub.dev/packages/flutter_slidable)
+- Equatable (https://pub.dev/packages/equatable)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### How to run?
+Checkout the code and run `flutter run`. Make sure any android or iOS device should be connected to the IDE.
+
